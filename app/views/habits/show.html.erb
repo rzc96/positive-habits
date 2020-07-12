@@ -1,0 +1,17 @@
+<p>
+  <strong>Title:</strong>
+  <%= @habit.title %>
+</p>
+
+<p>
+  <strong>Duration:</strong>
+  <%= @habit.duration %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @habit.date %>
+</p>
+
+<%= link_to 'Edit', edit_habit_path(@habit) %> |
+<%= link_to 'Back', habits_path %>
